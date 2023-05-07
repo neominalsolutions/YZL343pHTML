@@ -1,0 +1,74 @@
+  
+  /* internal css */
+  table,
+  th,
+  td {
+    border: 3px solid black;
+  }
+
+  /* çift satırlar even */
+  tbody tr:nth-child(even) {
+    background-color: darkgray;
+  }
+
+  /* tek satırlar */
+  tbody tr:nth-child(odd) {
+    background-color: gainsboro;
+  }
+
+
+  /* thead tr thead altındaki tr elementi seç */
+  thead tr {
+    background-color: black;
+    color: white;
+    /* sutünların renki beyaz arkaplan siyah olsun */
+  }
+
+  /* başlık sütunlara iç boşluk verdik */
+  thead th {
+    padding: 5px;
+    text-align: left;
+    /* sütünların içindeki yazılar sola yaslı olsun */
+  }
+
+  /* padding sadece td th gibi alanlara verirlir çünkü içerik yazısını temsil eder. */
+  tbody td {
+    padding: 0.5rem;
+  }
+
+  tfoot tr {
+    background-color: aquamarine;
+    color: rebeccapurple;
+  }
+
+  tfoot td {
+    padding: 0.5rem;
+  }
+
+  /* eğer responsive yani sayfaya tablonun sığmasını istersek bu durumda with 100vw yerine 100% olarak percent bazında oranlıyalım. bu sayede ekran büyüp küçülüğünde otomatik yerini konumunu ayarlar */
+  table {
+    width: 100%;
+  }
+
+  /* . ile className tanımı yapılabilir sayfada başka elementler için bu class kullanabilir
+  class tanımlaması yapılırken önünde . işareti olur.
+  */
+  .container {
+    padding: 50px;
+    box-sizing: border-box;
+  }
+
+  /* # ile sayfada id si olan elementi yakalayıp css uygulanır. */
+  #btn1 {
+    /* ovalleştirme özelliği */
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 1rem;
+    cursor: pointer;
+    /* butona gölge verdik */
+    box-shadow: 2px 2px 5px rebeccapurple;
+
+    /* parmak işareti gelsin */
+  }
+
+  /* css ile elementler 3 farklı şekilde yalkalanabilir element ismi h1, element id #btn1, element class'ı <div class="container"> */

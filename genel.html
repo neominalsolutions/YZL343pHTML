@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- başlık elementleri -->
+  <h1>Başlık1</h1>
+  <h2>Başlık 2</h2>
+  <h6>Başlık 6</h6>
+
+  <!-- header bir başlık element kapsayıcısıdır. -->
+  <header>
+    <h3>Başlık 3</h3>
+  </header>
+
+  <!-- p elementi bir önceki ve bir sonraki element için 1 satır boşluk bırakır. -->
+  <p>
+    Paragraf 1
+  </p>
+  <p>
+    Paragraf 2
+  </p>
+
+  <!-- p elementlerini article denilen anlamsal element ile sarmak bir genel kullanımdır. google sayfada özgün bir içerik olduğunu article elementi ile anlar -->
+  <!-- p elementinin kapsayıcı article olan mesafesini padding iç boşluk belirler -->
+  <!-- article tag içerisindeki p elementinin diğer p elementine olan dıştan mesafesini margin dış boşluk belirler -->
+  <!-- margin:5px top:5px bottom:5px left:5px right:5px ; margin-top:5px; -->
+  <article style="background-color: aqua; margin: 50px;padding: 15px;border-bottom:2px dotted red;">
+    <p>Paraf 3</p>
+    <p>Paraf 4</p>
+  </article>
+
+  <!-- sayfamızdaki linkler yani yönlendirme elementleri -->
+  <!-- 1 rem yada em default 16px px yerine kullanılan bir stil ölçü birimidir. -->
+  <nav style="background-color: cadetblue;padding: 1rem;">
+    <a style="color:#fffc45" href="https://www.google.com">Google</a>&nbsp;&nbsp;
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+  </nav>
+
+  <!-- division ayraç olarak bir elementi başka bir elementten ayırmak amaçlı kullılan etiket -->
+  <!-- elementler alt alta satır satır gelsin diye yaptığımız bir içerik ayırma yöntemi. -->
+  <div style="height: 20px; margin-top:5px; border:1px solid gray ">
+    <input />
+    <button>Ara</button>
+  </div>
+
+  <!-- html5 ile gelen anlamlı tag div yerine section da tercih edilebilir. -->
+  <section style="height: 20px; margin-top:5px; border:1px solid gray ">
+    <input />
+    <button>Ara</button>
+  </section>
+
+  <!-- içerik yanında bir yan menu varsa bunu sayfada belirtlemk için kullanılır -->
+  <aside>
+    <a href="#">Link-1</a>
+    <a href="#">Link-2</a>
+  </aside>
+
+  <!-- sayfadaki şekil içeriklerinin ve resimlerin kapsayıcı amaçlı tercih edilir. -->
+  <figure style="margin:0;padding: 0;">
+    <figcaption style="font-size: 8px;">Aşağıdaki şekilde html resim yükleme anlatılmaktadır </figcaption>
+    <img src="assets/Resim1.png" width="300px" height="300px" alt="Şekil-1">
+  </figure>
+
+  <details>
+    <summary>Ugur</summary>
+    <p>dsadsa</p>
+  </details>
+
+  <details>
+    <summary>Ugur2</summary>
+    <figure style="margin:0;padding: 0;">
+      <figcaption style="font-size: 8px;">Aşağıdaki şekilde html resim yükleme anlatılmaktadır </figcaption>
+      <img src="assets/Resim1.png" width="300px" height="300px" alt="Şekil-1">
+
+    </figure>
+  </details>
+
+  <article id="makaleler">
+    <p>Makale içerik</p>
+    <footer>
+      beğeni sayısı:10
+    </footer>
+  </article>
+
+  <!-- unordered list -->
+  <ul>
+    <li>Elma</li>
+    <li>Armut</li>
+  </ul>
+
+  <!-- orderlist -->
+
+  <ol>
+    <li>İzmir</li>
+    <li><a href="#">Ankara</a></li>
+  </ol>
+
+  <!-- html5 semantic tags -->
+  <!-- semantic tags article,aside,header,footer,figure,section,nav,details bunların hepsi yerine div kullanımı çok yaygındır. -->
+
+  <!-- h1,a,ul,ol,img,p,input,button -->
+
+  <!-- www.egitim-portali.com?e=1992 -->
+  <!-- www.egitim-portali.com/yazilim-egitimi -->
+</body>
+
+</html>

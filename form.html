@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <!-- name alanın formun içindeki elementin value erişmemizi sağlayan bir tekniktir. yada özelliktir. -->
+  <!-- action method elemente ait bir attribute'tür. -->
+  <!-- elemente özellik kazandıran href,src,title,name,type gibi değerlere ise attribute ismini veriyoruz. -->
+  <form action="#" method="get">
+    <div>
+      <label>Kullanıcı</label>
+      <input type="text" name="username" />
+    </div>
+
+    <div>
+      <label>Parola</label>
+      <input type="password" name="password" id="">
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" value="test@test.com" id="email">
+    </div>
+
+    <div>
+      <label for="email">Başlangıç Tarihi</label>
+      <input type="date" name="startDate" value="2014-02-09">
+    </div>
+
+    <!-- default date format yyyy-mm-dd -->
+
+    <!-- datetime chrome da çalımıyour -->
+    <div>
+      <label for="email">Toplantı Tarihi</label>
+      <input type="datetime" name="meetingDate">
+    </div>
+
+    <div>
+      <label for="email">Color</label>
+      <input type="color" name="color">
+    </div>
+
+    <div>
+      <label for="email">Numeric Alan</label>
+      <input type="number" name="number">
+    </div>
+
+
+    <div>
+      <label for="email">Numeric Range</label>
+      <input step="5" value="0" max="10" type="range" name="range">
+    </div>
+
+    <div>
+      <label for="email">Bay</label>
+      <input type="radio" name="range">
+      <label for="email">Bayan</label>
+      <input type="radio" name="range">
+    </div>
+
+    <div>
+      <label for="email">Fifa</label>
+      <input type="checkbox" name="game">
+      <label for="email">Pes</label>
+      <input type="checkbox" name="game">
+      <label for="email">EA Sport</label>
+      <input type="checkbox" name="game">
+    </div>
+
+    <!-- combobox -->
+    <div>
+      <select>
+        <option>İzmir</option>
+        <option>Ankara</option>
+        <option>İstanbul</option>
+      </select>
+    </div>
+
+
+    <div>
+      <!-- form içerisinde form göndermek submit tipinde bir button tanımlanmalıdır. -->
+      <input type="submit" value="Gönder">
+      <!-- yukarıdaki ile aynı -->
+      <!-- <button type="submit">Gönder</button> -->
+      <input type="reset" value="Formu Temizle">
+    </div>
+
+  </form>
+
+</body>
+
+</html>

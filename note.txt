@@ -1,0 +1,1 @@
+User Accounts -> Manage your credentials, delete all the ones involving Git and VS Code, then restart VS Code

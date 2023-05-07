@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <!-- ctrl+ö ctrl+k+c  yorum satırı -->
+  <!-- element 2 farklı formatta yazılır block level inline level -->
+
+  <!-- division ayraç blok level bir tasarım ayracı
+  Blok level satır boyunca yer kaplar
+  -->
+  <div>
+    <h1 style="border:1px solid red">Başlık 1</h1>
+  </div>
+
+  <!-- inline içerisindeki yazı genişliği kadar yer kaplar -->
+  <!-- inline-block width ve height değerleri kadar yer kaplar -->
+  <!-- block ise tüm satır kadar yer kaplar. -->
+
+  <!-- inline level elementler yan yana< gelirler -->
+  <!-- Not inline elementlerde yükseklik ve genişlik verilemez. versek dahi algılamaz -->
+  <a style="border:1px solid red">Link -1</a>
+  <a style="border:1px solid red">Link-2</a>
+  <a style="border:1px solid red;width: 50vw;display: inline-block;">Link-3</a>
+
+  <!-- not bazı durumlarda inline level elementleri block level göstermemiz gerekebilir bu durumda css ile diplay level değişebilir -->
+  <!-- not: bok level elementlerde yükseklik genişlik gibi değerleri değiştirebiliriz -->
+
+  <button>Button 1</button>
+
+  <button style="display:block;width:100vw;height: 40px;">Button 2</button>
+  <button style="width:100vw">Button 3</button>
+
+</body>
+
+</html>

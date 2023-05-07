@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- stiller head tagi içerisinde tanımlanır * ile sayfadaki tüm elementlerin margin padding sıfırlandı ve böylece tarayıcıdan kaynaklanan boşluklar giderildi. buna css-reset işlemi diyoruz -->
+  <!-- internet üzerindne uygulamamızda kullandığımız kodlara cdn content delivery network -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+  <!-- Not css bir html sayfada 3 farklı şekilde kullanılabilir. 1 inline 2 internal 3 external -->
+  <link rel="stylesheet" href="/assets/reset.css" />
+  <!-- linkten çağırma external css -->
+
+  <link rel="stylesheet" href="/assets/table.css" />
+
+</head>
+
+<body>
+
+
+  <div class="container">
+    <table>
+      <!-- inline-css -->
+      <thead>
+        <tr>
+          <th>İsim</th>
+          <th>Soyisim</th>
+          <th>Yaş</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Celal</td>
+          <td>Çolak</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>Safa</td>
+          <td>Küçük</td>
+          <td>31</td>
+        </tr>
+        <tr>
+          <td>Emre</td>
+          <td>Gürcanlar</td>
+          <td>31</td>
+        </tr>
+        <tr>
+          <td>Muhammed</td>
+          <td>Hançer</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>Alper</td>
+          <td>Çevik</td>
+          <td>23</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Yaş Ortalaması</td>
+          <td>
+            28
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <div class="container">
+    <p>Merhaba</p>
+  </div>
+
+  <div class="container">
+    <button id="btn1">Button 1</button>
+  </div>
+
+
+  </div>
+
+
+
+
+</body>
+
+</html>
